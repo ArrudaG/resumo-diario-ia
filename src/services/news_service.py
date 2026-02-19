@@ -1,6 +1,6 @@
 import requests
 
-from config.settings import url, params, NEWS_API_KEY
+from src.config.settings import url, params, NEWS_API_KEY
 
 def busca_financeiro():
     try:
