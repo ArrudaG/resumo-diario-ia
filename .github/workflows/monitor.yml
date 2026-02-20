@@ -1,4 +1,4 @@
-name: Resumo Diario Mercado Financeiro
+name: Resumo Semanal Mercado Financeiro
 
 on:
   schedule:
