@@ -2,7 +2,7 @@ import smtplib
 import logging
 
 from email.mime.text import MIMEText
-from config.settings import EMAIL_USER, EMAIL_PASSWORD, EMAIL_TO
+from src.config.settings import EMAIL_USER, EMAIL_PASSWORD, EMAIL_TO
 
 def enviar_email(assunto, mensagem):
     if not EMAIL_USER or not EMAIL_PASSWORD or not EMAIL_TO:

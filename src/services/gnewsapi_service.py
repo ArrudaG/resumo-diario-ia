@@ -1,14 +1,13 @@
 import requests
+from src.config.settings import GNEWS_API_KEY, url2, params2
 
-from config.settings import url, params, NEWS_API_KEY
-
-def busca_financeiro():
+def buscar_noticias2():
     try:
-        response = requests.get(url, params={**params, "apiKey": NEWS_API_KEY}, timeout=10)
+        response = requests.get(url2, params={**params2, "apikey": GNEWS_API_KEY}, timeout=20)
         if response.status_code == 200:
             dados = response.json()
             artigos = dados.get("articles", [])
-            noticias_formatadas = "\n\n".join(f"Título: {a['title']}\nDescrição: {a['description']}"
+            noticias_formatadas = "\n\n".join(f"Título: {a['title']}\nDescrição: {a['description']}\nFonte: {a['url']}"
                                       for a in artigos)
             return noticias_formatadas
         else:
@@ -16,4 +15,4 @@ def busca_financeiro():
             print("RESPOSTA COMPLETA:")
             print(response.json())
     except Exception as e:
-        print("Erro:", e)
+        print("ERRO: ", e)
