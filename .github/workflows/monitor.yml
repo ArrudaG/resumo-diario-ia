@@ -2,7 +2,7 @@ name: Resumo Diario Mercado Financeiro
 
 on:
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "0 10 * * mon"
   workflow_dispatch:
 
 permissions: write-all
