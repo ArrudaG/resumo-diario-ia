@@ -16,11 +16,11 @@ url2 = 'https://gnews.io/api/v4/search?'
 params1 = {
     "q": "(Ibovespa OR B3 OR IFIX OR fluxo estrangeiro OR Petrobras OR Vale OR Itau OR Banco do Brasil OR Bradesco OR WEG) AND (Selic OR IPCA OR inflação OR Copom OR Banco Central) AND (dólar OR câmbio OR real)",
     "language": "pt",
-    "pageSize": 10
+    "pageSize": 15
 }
 params2 = {
     "q": "(Ibovespa OR B3 OR Petrobras OR Banco Santander OR Ouro OR Itau OR CSN OR Banco Central OR inflação OR Vael OR Banco do Brasil OR Selic)",
     "lang": "pt",
     "country": "br",
-    "page": 10,
+    "page": 15
 }
