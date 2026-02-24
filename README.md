@@ -8,7 +8,7 @@ O objetivo do projeto é demonstrar habilidades em integração com APIs externa
 
 ## 🚀 Funcionalidades
 
-- Coleta automatizada de notícias financeiras via API da NewsAPI  
+- Coleta automatizada de notícias financeiras via NEWSAPI e da GNEWSAPI  
 - Filtragem de conteúdo relevante por palavra-chave  
 - Consolidação de múltiplas notícias em um único contexto  
 - Geração de resumo inteligente utilizando a API do Gemini  
@@ -89,10 +89,11 @@ Criar arquivo .env com:
 
 ```ini
 NEWS_API_KEY=your_key
+GNEWS_API_KEY=your_key
 GEMINI_API_KEY=your_key
 EMAIL_USER=your_email
 EMAIL_PASSWORD=email_password
-EMAIL_TO=email_receiver
+REPORT_EMAILS=list_emails
 ```
 ---
 
