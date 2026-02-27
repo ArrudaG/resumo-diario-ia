@@ -14,7 +14,7 @@ O objetivo do projeto é demonstrar habilidades em integração com APIs externa
 - Geração de resumo inteligente utilizando a API do Gemini  
 - Geração de relatório semanal
 - Tratamento de exceções para maior robustez  
-- Execução automatizada 1x ao dia  
+- Execução automatizada 1x na semana
 
 ---
 
