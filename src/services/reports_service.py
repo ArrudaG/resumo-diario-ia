@@ -13,7 +13,7 @@ def salvar_report(conteudo):
     arquivo = pasta / f"{data}.md"
 
     with open(arquivo, "w", encoding="utf-8") as f:
-        f.write(f"# Relatório Diário - {data}\n\n")
+        f.write(f"# Relatório Semanal - {data}\n\n")
         f.write(conteudo)
 
     return arquivo

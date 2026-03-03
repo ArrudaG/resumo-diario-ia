@@ -6,7 +6,7 @@ load_dotenv()
 
 EMAIL_USER = os.getenv("EMAIL_USER")
 EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
-EMAIL_TO = os.getenv("EMAIL_TO")
+EMAIL_TO = os.getenv("REPORT_EMAILS")
 NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GNEWS_API_KEY = os.getenv("GNEWS_API_KEY")
